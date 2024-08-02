@@ -1,0 +1,101 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SEARCH.master.cs" Inherits="MAIM_PROJECT_BLOOD_MANAGEMENT.SEARCH" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style19 {
+            font-size: large;
+            color: #FFFFFF;
+        }
+        .auto-style1 {
+            width: 100%;
+        }
+        .auto-style2 {
+            height: 220px;
+        }
+        .auto-style3 {
+            margin-left: 52px;
+        }
+        .auto-style4 {
+            height: 52px;
+            text-align: center;
+            background-color: #FF0000;
+        }
+        .auto-style5 {
+            height: 365px;
+        }
+        .auto-style11 {
+            width: 843px;
+        }
+        .auto-style20 {
+            width: 1140px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <table class="auto-style1">
+                <tr>
+                    <td class="auto-style2" colspan="2">
+                        <asp:Image ID="Image1" runat="server" CssClass="auto-style3" Height="210px" ImageUrl="~/image/Picsart_23-09-04_10-50-46-627 HEADING.jpg" Width="1476px" />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style4" colspan="2"><strong><span class="auto-style19">Stay fit and eat right and donate blood.</span></strong>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style5" rowspan="2">
+                        <asp:Menu ID="Menu2" runat="server" OnMenuItemClick="Menu2_MenuItemClick">
+                            <DynamicHoverStyle BackColor="Red" Font-Italic="True" ForeColor="White" Height="10px" />
+                            <DynamicMenuItemStyle BackColor="#FF7171" BorderColor="White" BorderWidth="1px" Font-Bold="True" ForeColor="White" />
+                            <DynamicMenuStyle BackColor="Red" BorderColor="White" BorderStyle="Groove" />
+                            <Items>
+                                <asp:MenuItem Text="HOME" Value="HOME" NavigateUrl="~/HOMEPAGE.aspx"></asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/SEARCH.aspx" Text="SEARCH" Value="SEARCH"></asp:MenuItem>
+                                <asp:MenuItem Text="LOGOUT" Value="REGISTER" NavigateUrl="~/HOMEPAGE.aspx"></asp:MenuItem>
+                            </Items>
+                            <StaticHoverStyle BackColor="Red" />
+                            <StaticMenuItemStyle BackColor="Red" BorderColor="Black" ForeColor="White" HorizontalPadding="25px" VerticalPadding="72px" />
+                        </asp:Menu>
+&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style11">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                            <p>
+                                &nbsp;&nbsp;</p>
+                            <p>
+                            </p>
+                            <p>
+                            </p>
+                            <p>
+                            </p>
+                            <p>
+                            </p>
+                            <p>
+                            </p>
+                            <p>
+                            </p>
+                            <p class="auto-style20">
+                            </p>
+                            <p>
+                            </p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        </asp:ContentPlaceHolder>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                    <td class="auto-style11">&nbsp;</td>
+                </tr>
+            </table>
+        </div>
+    </form>
+</body>
+</html>
